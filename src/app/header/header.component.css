@@ -1,0 +1,68 @@
+#header{
+    height: 46px;
+    background-color: rgb(224, 6, 6);
+ 
+}
+
+.head{
+    font-family: Montserrat, Helvetica, Arial, sans-serif; ;
+    font-weight: bold;
+    font-size: 28px;
+    float: left;
+    color: white;
+    margin: 2px 75px;
+}
+
+#opt{
+ margin: 2px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(224, 6, 6);
+    color: white;
+    height: 43px;
+    font-size: 16px;
+}
+#opt:hover{
+    background-color: white; 
+    color: rgb(224, 6, 6);
+}
+#log{
+    float:right;
+    border:none;
+    border-radius: 10px;
+    background-color: rgb(224, 6, 6);
+    color: white;
+    height: 43px;
+    font-size: 16px;
+}
+#log:hover{
+    background-color: white; 
+    color: rgb(224, 6, 6);  
+}
+#post{
+    float: right;
+    padding: 3px 1.5px;
+    margin: 9px 120px;
+    border: none;
+    width: 180px;
+    height: 32px;
+    border-radius: 10px;
+    background-color: white;
+    color: rgb(224, 6, 6);
+    font-size: 18px;   
+}
+#post:hover{
+    background-color: rgb(224, 6, 6); 
+    color: white;    
+}
+a{
+    text-decoration: none;
+}
+#badge{
+    color:black;
+    font-size: 12px;
+    height: 16px;
+    padding : 0px 6px;
+    border-radius: 8px;
+    background-color: yellow;
+}
