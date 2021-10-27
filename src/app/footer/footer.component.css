@@ -1,0 +1,48 @@
+.footer{
+	background-color: #f5f5f5;
+	display: flex;
+	padding: 20px;
+	
+}
+.last{
+	background-color: black;
+	color: white;
+	font-family: Montserrat,Helvetica,Arial,sans-serif;
+	height: 40px;
+	padding: 02px 15px;
+}
+.foot{
+	font-family: Montserrat,Helvetica,Arial,sans-serif;
+	width: 50%;
+}
+.foot1{
+	font-family: Montserrat,Helvetica,Arial,sans-serif;
+	padding: 0px 60px;
+	width: 50%;
+}
+.divi{
+	font-family: Montserrat,Helvetica,Arial,sans-serif;
+	padding: 20px;
+	background-color: #f8f8f8;
+}
+a{
+	text-decoration: none;
+	color: black;
+}
+a:active{
+	color: red;
+}
+.disc{
+	font-family: Montserrat,Helvetica,Arial,sans-serif;
+	margin: 20px;
+	padding: 0px 20px;
+}
+
+.tag{
+	font-family: Montserrat,Helvetica,Arial,sans-serif;
+	padding: 0px 15px;
+}
+.india{
+	font-size: 22px;
+	font-family: Montserrat,Helvetica,Arial,sans-serif;
+}

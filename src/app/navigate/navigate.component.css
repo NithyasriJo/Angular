@@ -1,0 +1,30 @@
+.navi{
+    
+    margin:  7px;
+    padding: 7px;
+    height: 36px;   
+}
+li{
+   list-style-type: none;
+}
+#topnav{
+    padding: 0px 20px;
+    margin: 0px 10px;
+}
+#opt{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+padding: 0px 40px;
+margin: 0px 10px;
+display: flex;
+}
+.optvalue{
+border:none;
+height: 34px;
+border-radius: 10px;
+padding: 0px 10px;
+}
+.optvalue:hover{
+    background-color: tomato;
+    color: white;
+}

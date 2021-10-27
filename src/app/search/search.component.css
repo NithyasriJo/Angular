@@ -1,0 +1,76 @@
+.search{
+    margin: 70px 300px 0px ;
+}
+#welcome{
+    color: rgb(126, 98, 98);
+    margin: 0px 0px;
+    font-size: 28px;
+    font-family: Georgia, 'Times New Roman', Times, serif;   
+}
+#love{
+    font-style: italic;
+    color: rgb(5, 0, 0);
+}
+#add{
+    margin: 0px 0px;
+    padding: 10px;
+    font-size: 16px; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+}
+li{
+    list-style-type: none;
+}  
+#list{
+    padding: 20px 35px;
+    display: flex;
+       
+}
+.lis{
+    padding: 0px 20px;
+}   
+a{
+    color: black;
+    text-decoration: none;
+}
+.find{
+    margin: 0px 120px;
+    padding: 08px 40px;
+    font-size: 18px;
+    height: 63px;
+    width:970px;
+    border: 1.5px solid rgb(173, 166, 166);
+    border-radius: 60px;
+}
+#typ{
+    margin: 0px 0px;
+    padding: 0px 0px;
+    border: none;
+    font-size: 18px;
+    height: 40px;
+    border-radius: 30px;
+    background-color: rgb(253, 230, 230);
+}
+.optvalue{
+    border: none;
+    border-radius: 30px;
+    height: 40px;
+    margin: 0px 50px;
+    padding: 0px 20px;
+}
+.optvalue:hover{
+    background-color: tomato;
+    color: rgb(247, 246, 245);
+}
+#find1{
+    border: none;
+    border-radius: 30px;
+    height: 40px;
+    padding: 0px 30px;
+    background-color:tomato;
+    color: white;
+    font-size: 18px;
+}
+#find1:hover{
+    background-color: rgb(204, 40, 40);
+    
+}

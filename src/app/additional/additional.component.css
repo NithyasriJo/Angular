@@ -1,0 +1,50 @@
+.add{
+    margin: 40px 120px;
+}
+.section{
+    display: flex;
+    padding: 0px 0px;
+    margin: 0px 0px;
+}
+#tap{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 24px;
+}
+.sec1{
+    padding: 30px;
+    height: 142px;
+    margin: 0px 20px;
+    width: 450px;
+    border-radius: 10px;
+    border: 1px solid rgba(251, 255, 0, 0.925);
+    background-color: rgb(253, 253, 216);
+    font-family:  'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 16px;
+}
+.sec1:hover{
+    background-color: rgb(224, 215, 131);
+
+    box-shadow:  2px 2px rgba(233, 28, 28, 0.87);
+}
+.divspan{
+        font-size: 32px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+         background: linear-gradient(
+            to right, #f32170, #ff6b08, #eedd44);
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+}
+.div1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin: 1px;
+
+}
+.div3{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     padding: 0px 0px;
+     margin: 0px 5px 5px 0px;
+}
+.div2{
+    color: rgb(223, 52, 52);
+    margin-top: 20px;
+}
