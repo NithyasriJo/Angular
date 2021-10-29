@@ -16,18 +16,18 @@
         <option>Semi-Furnished</option>
         <option>Bachelor Friendly</option>
     </select></li>
-        <li><select class="optvalue">
+        <li><select class="optvalue" >
             <option>Sell</option>
             <option>Priperties Valuation</option>
             <option>Find an agent</option>
             <option>Rates and Trends</option>
             </select>
         </li>
-        <li><select class="optvalue">
+        <li><select #sel class="optvalue" (change)="navigate(sel.value)">
             <option><a href="#">Home Loans</a></option>
-            <option><a href="#">Apply Loans</a></option>
+            <option value="loans" routerLink="loan"><a >Apply Loans</a></option>
             <option><a href="#">Loan Eligibility</a></option>
-            <option><a href="#">Loan Emi Calculation</a></option>
+            <option value="EMI" routerLink="EMI"><a>Loan Emi Calculation</a></option>
         </select></li>
         <li><select class="optvalue">
             <option>Property Services</option>
@@ -50,5 +50,6 @@
     </ul>
 </nav>
 </div>
+
 
   

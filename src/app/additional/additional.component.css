@@ -23,8 +23,7 @@
 }
 .sec1:hover{
     background-color: rgb(224, 215, 131);
-
-    box-shadow:  2px 2px rgba(233, 28, 28, 0.87);
+    box-shadow:  2px 2px rgba(214, 211, 211, 0.87);
 }
 .divspan{
         font-size: 32px;

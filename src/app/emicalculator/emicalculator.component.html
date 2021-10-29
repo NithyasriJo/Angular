@@ -1,15 +1,25 @@
-<div clas="loan">
-    <p id="head">EMI LOAN CALCULATOR</p>
-    Principal :  <input type="text" #myname id="myname" ><br>
-    Month :  <input type="text" #mypass id="mypass"><br>
-    ROI :  <input type="text" ><br>
-    <select #myselect >
-    <option value="Vec" #cal>VECHICLE LOAN</option>
-    <option value="Home" #cal>HOME LOAN</option>
-    <option value="Edu"  #cal>EDUCATION LOAN </option>
-    <option value="Per" #cal>PerS</option>
+<div class="loan">
+   <p id="head">EMI LOAN CALCULATOR</p>
+   <div class="calc">
+   <label class="na"> Principal        : </label>  <input type="text"  id="pamt" #pamt [value]="principalAmount" ><br>
+   <label class="na"> Years(In Month)  : </label> <input type="text"  id="month" #month [value]="months"><br>
+   <label class="na"> Rate of Interest : </label>  <input type="text" id="roi" #roi [value]="selectedValue" (keyup)="valueChange(roi.value)" ><br>
+   <label class="na"> EMI Interest Type: </label> 
+    <select id="emiType" #emitype [(ngModel)]="selectedValue">
+        <option value="0">Select</option>
+        <option value="8">VECHICLE LOAN (8%)</option>
+        <option value="10">HOME LOAN (10%)</option>
+        <option value="4">EDUCATION LOAN (4%)</option>
+        <option value="6">PERSONAL LOAN (6%)</option>
     </select> 
-    <br>
-    <input type="button" [value]="myvalue" click="abc(myname.value,mypass.value.)">
+<br>
+<button type="button" (click)="calculate(pamt.value, month.value, emitype.value)">CALCULATE</button>
+<button type="button" (click)="reset()">RESET</button>
+</div>
+</div>
+<div class="results">
+<p>principal Amount: <span>{{principalAmount}}</span></p>
+<p>Interest: <span>{{interest}}</span></p>
 </div>
   
+

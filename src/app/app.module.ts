@@ -13,7 +13,9 @@ import { FooterComponent } from './footer/footer.component';
 import { RentComponent } from './rent/rent.component';
 import { ErrorComponent } from './error/error.component';
 import { EmicalculatorComponent } from './emicalculator/emicalculator.component';
-import { TwowaybindingComponent } from './twowaybinding/twowaybinding.component';
+import { LoanComponent } from './loan/loan.component';
+import { LoginComponent } from './login/login.component';
+
 
 
 @NgModule({
@@ -29,7 +31,8 @@ import { TwowaybindingComponent } from './twowaybinding/twowaybinding.component'
     RentComponent,
     ErrorComponent,
     EmicalculatorComponent,
-    TwowaybindingComponent,
+    LoanComponent,
+    LoginComponent,
   ],
   imports: [
     BrowserModule,
