@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./emicalculator.component.css']
 })
 export class EmicalculatorComponent implements OnInit {
-  selectedValue: any = 0;
+selectedValue: any = 0;
  principalAmount: number = 0;
  months: number = 0;
  roi: number = 0;
